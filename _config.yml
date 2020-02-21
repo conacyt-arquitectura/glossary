@@ -1,55 +1,165 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-theme: minima
+---
+title: CONACYT - Arquitectura
+timezone: America/Mexico
+collections:
+  npm:
+    title: npm
+    output: true
+    permalink: "/:collection/:path"
+    meta:
+      description: npm
+      badge: "/uploads/logos/npm.svg"
+      in_nav: true
+    position: 80
+  git:
+    title: Git
+    output: true
+    permalink: "/:collection/:path/"
+    meta:
+      description: Lineamientos para Desarrolladores
+      badge: "/uploads/logos/git-icon.svg"
+      in_nav: true
+    position: 60
+  api:
+    title: API
+    output: true
+    permalink: "/:collection/:path/"
+    meta:
+      description: Lineamientos para APIs
+      badge: "/uploads/badge--api.svg"
+      in_nav: true
+    position: 60
+  lineamientos-back-end:
+    title: Lineamientos para Back-End
+    output: true
+    permalink: "/:collection/:path"
+    meta:
+      description: Lineamientos para Back-End
+      badge: "/uploads/badge--server.svg"
+      in_nav: true
+    position: 70
+  lineamientos-vue:
+    title: Lineamientos para Vue
+    output: true
+    permalink: "/:collection/:path/"
+    meta:
+      description: Lineamientos para Vue.js
+      badge: "/uploads/badge--vue.svg"
+      in_nav: true
+    position: 60
+  generator-vuejs-typescript-component:
+    title: Generador de Componentes VueJS
+    output: true
+    permalink: "/:collection/:path/"
+    meta:
+      description: Generador de Componentes VueJS en Typescript
+      badge: "/uploads/yeoman-character.png"
+      in_nav: true
+    position: 60
+  posts:
+    title: Posts
+    output: true
+  style:
+    title: Guía de Estilos
+    output: true
+    permalink: "/:collection/:path/"
+    meta:
+      description: A guide to Siteleaf style
+      in_nav: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: getting-started
+  values:
+    layout: page
+    color: blue
+- scope:
+    path: ''
+    type: content
+  values:
+    layout: page
+    color: green
+- scope:
+    path: ''
+    type: themes
+  values:
+    layout: page
+    color: yellow
+- scope:
+    path: ''
+    type: sites
+  values:
+    layout: page
+    color: red
+- scope:
+    path: ''
+    type: api
+  values:
+    layout: page
+    color: purple
+- scope:
+    path: ''
+    type: git
+  values:
+    layout: page
+    color: purple
+- scope:
+    path: ''
+    type: lineamientos-back-end
+  values:
+    layout: page
+    color: purple
+- scope:
+    path: ''
+    type: lineamientos-vue
+  values:
+    layout: page
+    color: green
+- scope:
+    path: ''
+    type: npm
+  values:
+    layout: page
+    color: purple
+- scope:
+    path: ''
+    type: v1
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: style
+  values:
+    layout: page
+    color: darkest-gray
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: page
+    color: red
+url: https://conacyt-arquitectura.github.io/
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- README*
+- ".gitignore"
+github_url: https://github.com/conacyt-arquitectura
+sass:
+  style: compressed
 plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-redirect-from
+logo: "/assets/images/logo.png"
+description: Documentation and learning resource for Siteleaf, a content management
+  system designed for a better web.
+posts_url: "/posts/"
