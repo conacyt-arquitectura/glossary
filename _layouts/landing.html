@@ -5,8 +5,8 @@ layout: default
 {% assign terms = site.data.glossary | sort:"name" %}
 <ul class="landingItems">
   {% for term in terms %}
-    <li class="landingItem">
-        {{ term.name }}
+    <li>
+        <h5>{{ term.name }}</h5>
         <p>{{ term.desc }}</p>
       </a>
     </li>

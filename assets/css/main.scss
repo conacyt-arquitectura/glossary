@@ -25,7 +25,7 @@
   margin-top: $v*2.5;
   margin-bottom: $v*3;
   @extend %row;
-  text-align: center;
+  text-align: justify;
 }
 .landingItem {
   @extend %column;
