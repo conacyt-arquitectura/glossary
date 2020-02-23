@@ -2,18 +2,13 @@
 layout: default
 ---
 
-{% assign sections = site.collections | sort:"position" %}
+{% assign terms = site.data.glossary | sort:"name" %}
 <ul class="landingItems">
-  {% for section in sections %}
-    {% if section.title and section.meta.in_nav == true %}
-      <li class="landingItem">
-        {% assign docs = section.docs | sort:"position" %}
-        <a href="/{{ section.label }}/" class="landingItem__link">
-          <img class="badge" src="{{ section.meta.badge }}" />
-          <h5>{{ section.title }}</h5>
-          <p>{{ section.meta.description }}</p>
-        </a>
-      </li>
-    {% endif %}
+  {% for term in terms %}
+    <li class="landingItem">
+        <h5>{{ term.name }}</h5>
+        <p>{{ term.desc }}</p>
+      </a>
+    </li>
   {% endfor %}
 </ul>
