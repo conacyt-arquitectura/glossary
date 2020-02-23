@@ -1,38 +1,86 @@
 [
     {
+        "name": "Carta de postulación",
+        "desc": "Documento suscrito por los titulares o Representantes Legales de las instituciones postulantes, en el cual se manifiesta el compromiso de apoyo para el desarrollo del proyecto, así como el reconocimiento del Responsable Técnico"
+    },
+    {
+        "name": "Comité Técnico y de Administración",
+        "desc": "Máxima autoridad colegiada del FORDECYT, responsable del cumplimiento de sus fines y de la autorización de recursos a proyectos"
+    },
+    {
+        "name": "Convenio de Asignación de Recursos",
+        "desc": "Instrumento jurídico en el cual se hacen constar los términos y condiciones de los recursos que se otorgan a los Sujetos de Apoyo del FORDECYT"
+    },
+    {
+        "name": "Convenio de Colaboración",
+        "desc": "Documento formal suscrito de manera conjunta por los Representantes Legales de las instituciones, universidades públicas y/o particulares, centros, laboratorios, empresas públicas y privadas dedicadas a la investigación científica y tecnológica, y desarrollo tecnológico, postulantes, en donde se establezca de forma clara la intención de participación y los compromisos a asumir en la ejecución del proyecto"
+    },
+    {
+        "name": "Convocatorias",
+        "desc": "Documentos publicados en diversos medios de comunicación mediante los cuales se dan a conocer las características específicas de los apoyos que se ofrecen por el FORDECYT y los requisitos, mecanismos y procedimientos para su otorgamiento, en concordancia con los objetivos del FORDECYT"
+    },
+    {
+        "name": "Entregables",
+        "desc": "Resultados o productos tangibles a generar o generados por el proyecto que permitirán al usuario resolver y/o atender los problemas, necesidades u oportunidades que dieron origen a la solicitud"
+    },
+    {
+        "name": "Evaluadores acreditados",
+        "desc": "Investigadores, académicos, tecnólogos, consultores, especialistas o profesionales prestigiados inscritos en el Registro Conacyt de Evaluadores Acreditados (RCEA)"
+    },
+    {
+        "name": "FORDECYT",
+        "desc": "Fondo Institucional de Fomento Regional para el Desarrollo Científico, Tecnológico y de Innovación"
+    },
+    {
+        "name": "Indicadores",
+        "desc": "Medidores del beneficio obtenido y/o potencial resultante de la aplicación de las acciones derivadas del proyecto, en la solución y/o atención del problema, necesidad u oportunidad que dio origen a la Demanda"
+    },
+    {
+        "name": "Instancia",
+        "desc": "Instituciones, universidades públicas y particulares, centros, laboratorios, empresas públicas o privadas que se encuentren inscritas en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas, que presenten solicitudes de apoyo al FORDECYT"
+    },
+    {
+        "name": "Instancia de Evaluación",
+        "desc": "Grupo de trabajo integrado, entre otros, por académicos, empresarios, servidores públicos de alto nivel y personalidades, todos de reconocido prestigio en el ámbito científico y/o tecnológico, invitados por el Conacyt de conformidad con las Reglas de Operación del FORDECYT"
+    },
+    {
+        "name": "Proyecto",
+        "desc": "Solicitud aprobada por el Comité Técnico y de Administración para recibir recursos del FORDECYT"
+    },
+    {
+        "name": "Recursos complementarios",
+        "desc": "Son aquellos recursos líquidos aportados por terceros para la realización del proyecto, mismos que deberán ser depositados en la cuenta exclusiva del mismo"
+    },
+    {
+        "name": "Región",
+        "desc": "Espacio geográfico o temático, conformado por más de una entidad federativa o bien por más de un municipio de una o más entidades federativas. a. Geográfica. Región conformada por entidades o municipios con vecindad territorial, que comparten problemáticas u oportunidades de desarrollo. b. Temática. Región conformada por entidades o municipios que comparten problemáticas u oportunidades de desarrollo, independientemente de la vecindad territorial"
+    },
+    {
+        "name": "Representante Legal",
+        "desc": "Persona física de la instancia proponente, con el poder legal para contraer compromisos a nombre del Sujeto de Apoyo y firmar el Convenio de Asignación de Recursos correspondiente"
+    },
+    {
+        "name": "Responsable Administrativo",
+        "desc": "Persona física responsable de los aspectos administrativos y financieros del proyecto"
+    },
+    {
+        "name": "Responsable Técnico",
+        "desc": "Persona física responsable de la solicitud y de la coordinación del desarrollo de las actividades y realización cabal del proyecto"
+    },
+    {
+        "name": "Riesgos en la ejecución del proyecto",
+        "desc": "Descripción de posibles contingencias de naturaleza técnica, que podrían presentarse durante la ejecución del proyecto e impedir la conclusión exitosa del mismo, su probabilidad de ocurrencia, así como las acciones consideradas para solventarlas en tiempo y forma"
+    },
+    {
+        "name": "Servicio",
+        "desc": "Satisfactores intangibles que una institución o instancia ofrece a un mercado específico"
+    },
+    {
+        "name": "Solicitud",
+        "desc": "Documento que describe al potencial proyecto de investigación científica y tecnológica, de innovación y desarrollo tecnológico, de creación y consolidación de grupos de investigación, de creación y fortalecimiento de la infraestructura científica y tecnológica y/o de difusión y divulgación, que pretende solucionar la problemática determinada o las prioridades, necesidades u oportunidades de la región"
+    },
+    {
         "name": "Sujeto de Apoyo",
-        "desc": "El sujeto de apoyo se utiliza para poder"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
-    },
-    {
-        "name": "Corresponsable",
-        "desc": "El corresponsable se utiliza para poder consultar ínformación que puede utilizada"
+        "desc": "Institución o Instancia responsable de la ejecución del proyecto que recibe el apoyo económico del FORDECYT"
     }
 ]
