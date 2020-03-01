@@ -1,6 +1,7 @@
 ---
 title: CONACYT - Glosario Organizacional
 timezone: America/Mexico
+theme: materialize-jekyll
 collections:
   posts:
     title: Posts
@@ -34,7 +35,6 @@ defaults:
     color: green
 - scope:
     path: ''
-    type: themes
   values:
     layout: page
     color: yellow
