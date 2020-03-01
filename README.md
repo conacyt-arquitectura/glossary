@@ -10,10 +10,11 @@ bundle install
 
 ## desarrollo local
 
-para levantar un servidor local utilizar:
+para levantar el servidor local utilizar:
 
 ```
 bundle exec jekyll serve
 ```
 
 Se pude ver el sitio en el link [localhost:4000](http://localhost:4000).
+
