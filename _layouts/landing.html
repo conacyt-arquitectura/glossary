@@ -3,12 +3,17 @@ layout: default
 ---
 
 {% assign terms = site.data.glossary | sort:"name" %}
-<ul class="landingItems">
+&nbsp;&nbsp;
+<ul class="">
   {% for term in terms %}
   <li class="">
-    <h5>{{ term.name }}</h5>
-    <p>{{ term.desc }}</p>
-    </a>
-  </li >
+    <div class="card-panel" id="#{{ term.name | replace: " ", "-"}}">
+      <a id="scale-demo" class="btn-floating btn-large scale-transition blue">
+        <i>{{ term.name | split: "" | first}}</i>
+      </a>
+      <h5>{{ term.name }}</h5>
+      <span class="text-darken-2">{{ term.desc }}</span>
+    </div>
+  </li>
   {% endfor %}
 </ul>
